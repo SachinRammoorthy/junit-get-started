@@ -24,14 +24,14 @@ JUnit is the preferred framework because:
 
 ## <a id="set"></a>Setting up the Project
 
-* Download [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Make sure that it is for your Operating System!
+* Download [Java 8 JDK] from this link : http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html for your operating system.
 * Make sure you have declared the `JAVA_HOME` environment variable to the directory where JDK was installed. 
 * Fork the repository by clicking on the *Fork* button at the top right corner of this page.
 * Clone the repository to your local machine by running the following command on yout terminal/command prompt:
 			`git clone https://github.com/[YOUR-USERNAME]/junit-get-started.git`
 * If you need help, refer [Forking and Cloning in git](https://help.github.com/articles/fork-a-repo/).
 * Make the necessary changes to the cloned repository.
-* Use `git push` to push the changes to your repository.
+* Use _git push_ to push the changes to your repository.
 
 ## <a id="run"></a>Running the tests
 1. Set the present working directory in terminal (or cmd) to your project. (`cd \YOUR_PROJECT_DIRECTORY`).
@@ -45,7 +45,10 @@ JUnit is the preferred framework because:
 2. Right-click the `src/test/` directory.
 3. Click `Run 'All Tests'` or simply use the `Ctrl-Shift-F10` keyboard shortcut.
 
+#### If you can't install IDE and Java use online java compilers such as jdoodle.com/online-java-compiler. 
+
 ## <a id="cont"></a>Contribution Guidelines
+
 1. Add a **new** test class under `src/test/java` for the suite of test cases to be added.
 2. Add 5 JUnit test cases in that class, one for each:
 		-assertTrue
